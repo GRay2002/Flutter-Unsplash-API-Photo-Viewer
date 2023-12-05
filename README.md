@@ -1,16 +1,11 @@
-# photo_api
+# Unsplash Flutter App
 
-A new Flutter project.
+This Flutter app allows you to browse photos from Unsplash using their API. It's a simple infinite scroll app that loads more photos as you scroll.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Infinite scrolling to load more photos
+- Displaying photos from Unsplash API
+- Faded purple background and deep purple app bar
+- Photos displayed in a square format
+- Clickable photos to view them in full-size
