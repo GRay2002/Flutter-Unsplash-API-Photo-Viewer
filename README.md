@@ -1,11 +1,62 @@
-# Unsplash Flutter App
+# Flutter Unsplash Photo App
 
-This Flutter app allows you to browse photos from Unsplash using their API. It's a simple infinite scroll app that loads more photos as you scroll.
+Welcome to the Flutter Unsplash Photo app, where you can explore and discover stunning photos from Unsplash. This Flutter application provides an infinite list of photos loaded from the Unsplash API.
+
+## Getting Started
+
+Follow these steps to get the Unsplash Photo app running on your local machine:
+
+1. **Clone this repository:**
+
+    ```bash
+    git clone <Your Repository URL>
+    cd unsplash_photo_app
+    ```
+
+2. **Ensure you have Flutter installed:**
+
+    If not, follow the instructions on the [official Flutter website](https://flutter.dev/docs/get-started/install).
+
+3. **Fetch the dependencies:**
+
+    ```bash
+    flutter pub get
+    ```
+
+4. **Run the app:**
+
+    ```bash
+    flutter run
+    ```
 
 ## Features
 
-- Infinite scrolling to load more photos
-- Displaying photos from Unsplash API
-- Faded purple background and deep purple app bar
-- Photos displayed in a square format
-- Clickable photos to view them in full-size
+1. **Infinite Photo Scroll:**
+    - Explore an endless list of beautiful photos from Unsplash.
+
+2. **Lazy Loading:**
+    - New photos are loaded as you scroll to the end of the list.
+
+3. **Customizable UI:**
+    - The app provides a visually appealing design with a faded purple background, a deep purple app bar, and square photos of size 360x360.
+
+4. **Centered App Title:**
+    - The app title in the app bar is centered for an elegant look.
+
+## Customization
+
+Feel free to customize the app based on your preferences or needs:
+
+- **Photo Size:**
+    - Adjust the photo size and aspect ratio according to your design preferences.
+
+- **UI Colors:**
+    - Modify the background color, app bar color, and other UI elements to match your preferred color scheme.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements or encounter issues, feel free to open issues or submit pull requests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
