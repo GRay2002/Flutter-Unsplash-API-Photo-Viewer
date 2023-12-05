@@ -25,7 +25,6 @@ class MyApp extends StatelessWidget {
 }
 
 class Photo {
-
   Photo({
     required this.id,
     required this.description,
@@ -43,8 +42,6 @@ class Photo {
   final String description;
   final String imageUrl;
 }
-
-
 
 class UnsplashApi {
   static const String apiKey = 'tACkK8zx_wVYlLaBtAmh86X8AXAgD4tkEkLpmSOr1Xo';
@@ -118,7 +115,6 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-
   Widget _buildPhotoList() {
     return ListView.builder(
       itemCount: _photos.length + 1, // Add 1 for loading indicator
@@ -126,7 +122,7 @@ class _MyHomePageState extends State<MyHomePage> {
         if (index < _photos.length) {
           final Photo photo = _photos[index];
           final String limitedDescription =
-          photo.description.length > 50 ? '${photo.description.substring(0, 50)}...' : photo.description;
+              photo.description.length > 50 ? '${photo.description.substring(0, 50)}...' : photo.description;
 
           return GestureDetector(
             onTap: () {
