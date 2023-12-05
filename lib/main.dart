@@ -140,6 +140,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   limitedDescription,
                   style: const TextStyle(
                     fontSize: 16,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
                   ),
                 ),
                 contentPadding: const EdgeInsets.all(8.0),
